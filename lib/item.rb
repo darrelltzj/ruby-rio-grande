@@ -2,11 +2,11 @@ class Item
   attr_reader :quantity
   attr_accessor :name, :price, :description
 
-  def initialize(name, price, quantity, description)
+  def initialize(name, price, quantity = 0, description = '')
     @name = name
     @price = price
-    @quantity = 0
-    @description = ''
+    @quantity = quantity
+    @description = description
   end
 
   def sell(amount)
