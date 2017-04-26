@@ -11,7 +11,7 @@ describe Bluray do
   describe 'Initialization' do
     # check that it is an instance of Bluray
     it 'should be blueray' do
-      expect(@blueray).to be_instance_of(Blueray)
+      expect(@blueray).to be_instance_of(Bluray)
     end
     # check that it is an extended from Item
     it 'should an item' do
