@@ -68,6 +68,3 @@ describe Cd do
     end
   end
 end
-# * Tracks (number of)
-# * Artist
-# * Run time
