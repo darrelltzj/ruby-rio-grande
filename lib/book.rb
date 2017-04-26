@@ -1,13 +1,10 @@
 require_relative 'item.rb'
 
 class Book < Item
-  def initialize(name, price, quantity, description)
+  attr_accessor :pages, :author
+  def initialize(name, price, pages, author)
+    @pages = pages
+    @author = author
     super(name, price, quantity, description)
   end
-
-  def name
-    @name = name
-  end
-
-
 end
